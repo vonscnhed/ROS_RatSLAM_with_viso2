@@ -1,3 +1,42 @@
+
+# Created by https://www.gitignore.io/api/ros,cmake,linux,opencv
+
+### CMake ###
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+### OpenCV ###
+#OpenCV for Mac and Linux
+#build and release folders
+*/CMakeFiles
+*/CMakeCache.txt
+*/Makefile
+*/cmake_install.cmake
+.DS_Store
+
+### ROS ###
 build/
 bin/
 lib/
@@ -38,10 +77,11 @@ qtcreator-*
 /planning/docs
 /planning/src
 
-*~
 
 # Emacs
 .#*
 
 # Catkin custom files
 CATKIN_IGNORE
+
+# End of https://www.gitignore.io/api/ros,cmake,linux,opencv
